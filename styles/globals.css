@@ -17,6 +17,10 @@
   @apply flex justify-center items-center;
 }
 
+.header {
+  background-position: 40% 40%;
+}
+
 .header__overlay {
   background: linear-gradient(
     200.44deg,
