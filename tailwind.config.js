@@ -4,6 +4,7 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
     "./containers/**/*.{js,ts,jsx,tsx}",
+    "./utils/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     container: {
@@ -19,7 +20,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: "F4511E",
+        primary: "#F4511E",
         secondary: "#18191F",
         gray: "#818181",
         dark: "#0A142F",
