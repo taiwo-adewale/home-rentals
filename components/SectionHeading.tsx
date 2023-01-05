@@ -5,7 +5,11 @@ type Props = {
 };
 
 const SectionHeading = ({ title }: Props) => {
-  return <h2 className="text-dark text-3xl font-bold">{title}</h2>;
+  return (
+    <h2 className="section__header text-dark text-3xl font-bold capitalize relative inline-block mb-4">
+      {title}
+    </h2>
+  );
 };
 
 export default SectionHeading;

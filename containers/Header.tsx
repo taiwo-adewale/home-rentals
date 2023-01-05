@@ -4,8 +4,7 @@ const Header = () => {
   return (
     <header
       style={{
-        backgroundImage:
-          "url('assets/etienne-beauregard-riverin-B0aCvAVSX8E-unsplash.jpg')",
+        backgroundImage: "url('assets/header.jpg')",
       }}
       className="bg-no-repeat header"
     >
