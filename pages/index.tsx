@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { About } from "../containers";
+import { About, Properties } from "../containers";
 
 export default function Home() {
   return (
@@ -13,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <About />
+        <Properties />
       </main>
     </>
   );
