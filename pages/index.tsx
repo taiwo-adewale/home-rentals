@@ -1,6 +1,11 @@
 import Head from "next/head";
 
-import { About, Properties } from "../containers";
+import {
+  Testimonials,
+  Description,
+  Properties,
+  AddProperty,
+} from "../containers";
 
 export default function Home() {
   return (
@@ -12,8 +17,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <About />
+        <Description />
         <Properties />
+        <AddProperty />
+        <Testimonials />
       </main>
     </>
   );
