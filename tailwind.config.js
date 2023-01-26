@@ -13,6 +13,7 @@ module.exports = {
     },
     screens: {
       xs: { max: "319px" },
+      scr450: { max: "450px" },
       xs399: { max: "399px" },
       sm: "576px",
       md: "768px",
@@ -32,8 +33,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      primary: ["Josefin Sans", "sans-serif"],
-      secondary: ["Source Serif Pro", "serif"],
+      sans: ["var(--font-inter)"],
     },
   },
   plugins: [],

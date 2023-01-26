@@ -22,6 +22,7 @@ const Description = () => {
             {rentalProps.map((prop, index) => (
               <div
                 key={`rental-prop-${index}`}
+                data-aos="zoom-in"
                 className="text-center lg:text-start"
               >
                 <span className="rounded-xl icon-shadow p-4 inline-block mb-2">

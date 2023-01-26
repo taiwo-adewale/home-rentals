@@ -14,7 +14,7 @@ const Properties = () => {
         <div className="flex justify-between items-center flex-wrap gap-y-4 gap-x-8 w-full">
           <SectionHeading title="list of properties" />
 
-          <div className="hidden sm:flex">
+          <div data-aos="fade-up" className="hidden sm:flex">
             <Button>View All Property</Button>
           </div>
         </div>
@@ -25,6 +25,7 @@ const Properties = () => {
             .map((property, index) => (
               <div
                 key={`property-${index}`}
+                data-aos="fade-up"
                 className="property-shadow xs:rounded-2xl rounded-[26px] overflow-hidden flex flex-col"
               >
                 <Image src={property.image} alt={property.address} />

@@ -52,31 +52,67 @@ const Footer = () => {
                   </span>
 
                   <div className="flex flex-wrap lg:flex-nowrap gap-x-6 gap-y-4 items-center justify-center">
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="0"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaFacebookSquare className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="20"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaTwitter className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="40"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaLinkedinIn className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="60"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaFacebookSquare className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="80"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaYoutube className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="100"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaInstagram className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="120"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaGooglePlusG className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="140"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaPinterest className="fill-primary text-lg cursor-pointer" />
                     </a>
-                    <a href="http://wale-portfolio.netlify.app/">
+                    <a
+                      data-aos="zoom-in"
+                      data-aos-delay="160"
+                      href="http://wale-portfolio.netlify.app/"
+                    >
                       <FaRss className="fill-primary text-lg cursor-pointer" />
                     </a>
                   </div>

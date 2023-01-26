@@ -55,7 +55,10 @@ const AddProperty = () => {
         <div className="grid grid-cols-8 items-center">
           <div className="md:mr-8 col-span-8 md:col-span-5 lg:col-span-4 hidden sm:block">
             <div className="flex items-end">
-              <div className="relative rounded-3xl overflow-hidden w-[48%] mr-4">
+              <div
+                data-aos="zoom-in"
+                className="relative rounded-3xl overflow-hidden w-[48%] mr-4"
+              >
                 <Image
                   src={images.desc1}
                   alt="description"
@@ -67,7 +70,10 @@ const AddProperty = () => {
                   </p>
                 </div>
               </div>
-              <div className="relative rounded-3xl overflow-hidden w-[52%] mr-6">
+              <div
+                data-aos="zoom-in"
+                className="relative rounded-3xl overflow-hidden w-[52%] mr-6"
+              >
                 <Image
                   src={images.desc2}
                   alt="description"
@@ -82,7 +88,10 @@ const AddProperty = () => {
             </div>
 
             <div className="flex items-start mt-6">
-              <div className="relative rounded-3xl overflow-hidden w-[38%] mr-4">
+              <div
+                data-aos="zoom-in"
+                className="relative rounded-3xl overflow-hidden w-[38%] mr-4"
+              >
                 <Image
                   src={images.desc3}
                   alt="description"
@@ -94,7 +103,10 @@ const AddProperty = () => {
                   </p>
                 </div>
               </div>
-              <div className="relative rounded-3xl overflow-hidden w-[62%]">
+              <div
+                data-aos="zoom-in"
+                className="relative rounded-3xl overflow-hidden w-[62%]"
+              >
                 <Image
                   src={images.desc4}
                   alt="description"
@@ -200,6 +212,7 @@ const AddProperty = () => {
           </p>
 
           <form
+            data-aos="fade-up"
             onSubmit={(e) => e.preventDefault()}
             className="contact-shadow bg-white rounded-xl xs:px-6 xs:py-8 px-8 py-10 sm:p-[60px]"
           >
@@ -255,11 +268,14 @@ const AddProperty = () => {
 
             <div className="w-full mt-6">
               <label htmlFor="photos">Upload photos</label>
+
+              {isDragActive && (
+                <div className="overlay fixed inset-0 bg-[rgba(0,0,0,0.5)] z-[19]"></div>
+              )}
+
               <div
                 {...getRootProps()}
-                className={`border border-dashed border-primary flex-center p-6 rounded-xl text-center mt-2 ${
-                  isDragActive ? "bg-[rgba(0,0,0,0.1)]" : "bg-white"
-                }`}
+                className="relative bg-white border border-dashed border-primary flex-center p-6 rounded-xl text-center mt-2 z-[29]"
               >
                 <div>
                   {isDragActive ? (
